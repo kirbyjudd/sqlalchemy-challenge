@@ -30,6 +30,7 @@ I did the following analysis:
 - Design a query to get the previous 12 months of temperature observation (TOBS) data.
 
 I then created a histogram of the station with the most observations and queries the previous 12 months of TOBS data for the station.
+
 ![Histogram](https://github.com/kirbyjudd/sqlalchemy-challenge/blob/main/Graphs/TOBS%20histogram.png?raw=true)
 
 ## Part 2: Design Your Climate App
