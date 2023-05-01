@@ -31,4 +31,16 @@ I did the following analysis:
 I then created a histogram of the station with the most observations and queries the previous 12 months of TOBS data for the station.
 
 ## Part 2: Design Your Climate App
+After the inital analysis I designed a Flask API page that listed the available routes. It is located in the "app.py" file located in the "SurfsUp" folder.
+
+The static routes included:
+- A precipitation route that returns json with the date as the key and the value as the precipitation and only returns the jsonified precipitation data for the last year in the database.
+- A stations route that returns jsonified data of all of the stations in the database
+- A tobs route that returns jsonified data for the most active station (USC00519281) and only returns the jsonified data for the last year of data
+
+The dynamic routes included:
+- A start route that accepts the start date as a parameter from the URL and returns the min, max, and average temperatures calculated from the given start date to the end of the dataset
+- A start/end route that accepts the start and end dates as parameters from the URL and returns the min, max, and average temperatures calculated from the given start date to the given end date
+
+
 
