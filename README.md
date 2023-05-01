@@ -19,6 +19,7 @@ I performed the following precipitation analysis in the "climate_starter.ipynb" 
 - Use Pandas to print the summary statistics for the precipitation data.
 
 I then plotted the results by using the DataFrame plot method and created a bar graph that shows the date as the x value and inches of precipitation as the y value for the most recent year.
+![Bar Graph](https://github.com/kirbyjudd/sqlalchemy-challenge/blob/main/Graphs/precipitation%20bar%20graph.png?raw=true)
 
 Next, I analyzed the hawaii_stations.csv station data which is also located in the "Resources" folder.
 
@@ -29,6 +30,7 @@ I did the following analysis:
 - Design a query to get the previous 12 months of temperature observation (TOBS) data.
 
 I then created a histogram of the station with the most observations and queries the previous 12 months of TOBS data for the station.
+![Histogram](https://github.com/kirbyjudd/sqlalchemy-challenge/blob/main/Graphs/TOBS%20histogram.png?raw=true)
 
 ## Part 2: Design Your Climate App
 After the inital analysis I designed a Flask API page that listed the available routes. It is located in the "app.py" file located in the "SurfsUp" folder.
