@@ -42,5 +42,6 @@ The dynamic routes included:
 - A start route that accepts the start date as a parameter from the URL and returns the min, max, and average temperatures calculated from the given start date to the end of the dataset
 - A start/end route that accepts the start and end dates as parameters from the URL and returns the min, max, and average temperatures calculated from the given start date to the given end date
 
+The two graphs that were generated are located in the "Graphs" folder.
 
 
